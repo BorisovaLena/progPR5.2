@@ -195,7 +195,7 @@ namespace pr5._2
             Write write = new Write() { str = lens + " " + str + " = " + kolKm + " km " + kolM + " m" };
             W.Add(write);
         }
-
+        
         static void inputData(string path, List<Write> L) // запись списка в newfile.csv
         {
             using (StreamWriter sw = new StreamWriter(path, true, Encoding.UTF8)) 
